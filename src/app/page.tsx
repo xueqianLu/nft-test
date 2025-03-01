@@ -20,11 +20,11 @@ import ERC20_ABI from "@/lib/ERC20_abi.json";
 
 
 const ContractAbi = IKLKGenesis.abi;
-// const NFT_address = "0x5281e4Ee6D209D03FeD25B1f9845785B319eD9DC"
-// const Token_address = '0x25C827A1457Ac12Bd020d2B70823537FAf2A1d24'
+const NFT_address = "0x71a0CdDf6f318758bEd9FBE96025A21A2935350f"
+const Token_address = '0x50D644185c64F91097A477757f58746C4cC9A335'
 
-const NFT_address = "0x236489BdbF9f4f297a214d365bE8F7238Fc247aE"
-const Token_address = '0x55d398326f99059ff775485246999027b3197955'
+// const NFT_address = "0x236489BdbF9f4f297a214d365bE8F7238Fc247aE"
+// const Token_address = '0x55d398326f99059ff775485246999027b3197955'
 
 const whitelistStart = new Date('2025-02-28T12:00:00Z');
 const publicStart = new Date('2025-03-04T12:00:00Z');
