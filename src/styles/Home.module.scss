@@ -1,0 +1,468 @@
+.container {
+    padding: 0 2.6vw;
+    position: relative;
+}
+
+.topContent {
+    padding-top: 3.96vw;
+
+    p {
+        color: #6EF000;
+        font-size: 2.63vw;
+        width: 66.46vw;
+        text-align: center;
+        font-family: Graphik;
+        font-size: 1.04vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.56vw;
+    }
+
+    p:first-child {
+        color: var(--Green, #6EF000);
+        text-align: center;
+        font-family: Graphik;
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+.mintSection {
+    width: 42.97vw;
+    border-radius: 0.52vw;
+    flex-shrink: 0;
+    border: 1px solid var(--Green, #6EF000);
+    margin-top: 2.6vw;
+    padding: 2.44vw 2.08vw 3.91vw;
+    box-sizing: border-box;
+    margin-left: 8.8vw;
+
+    .mintTitle {
+        color: var(--Grey, #DEDEDE);
+        text-align: center;
+        font-family: Graphik;
+        font-size: 1.67vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .progressContainer {
+        width: 32.19vw;
+
+        .mintCount p {
+            color: var(--Green, #6EF000);
+            text-align: center;
+            font-family: Graphik;
+            font-size: 0.83vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .progressBar {
+            height: 0.47vw;
+
+            width: 100%;
+            background-color: var(--Gray, #D9D9D9);
+            margin-top: 0.21vw;
+
+            .progress {
+                height: 100%;
+                background-color: var(--Green, #6EF000);
+            }
+        }
+
+
+    }
+
+    .mintPrice {
+        min-width: 28.54vw;
+        margin-top: 2.55vw;
+        padding-top: 1.77vw;
+        border-top: 1px solid var(--Gray, #DEDEDE);
+        position: relative;
+        z-index: 10;
+
+        .price {
+            color: var(--Grey, #DEDEDE);
+            font-family: Graphik;
+            font-size: 0.83vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 1.56vw;
+        }
+
+        .handles {
+            .checkBtn {
+                width: 11.88vw;
+                height: 2.92vw;
+                flex-shrink: 0;
+                border: 1px solid var(--Green, #6EF000);
+                border-radius: .52vw;
+                margin-right: .52vw;
+
+                color: var(--Green, #6EF000);
+                text-align: center;
+                font-family: Graphik;
+                font-size: 1.25vw;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                &:hover {
+                    background: var(--Green, #6EF000);
+                    color: #101010;
+                    transition: all .3s;
+                }
+            }
+
+            .mintBtn {
+                width: 16.67vw;
+                height: 2.92vw;
+                flex-shrink: 0;
+                border-radius: .52vw;
+                background: #00FF9C;
+
+                color: var(--Black, #101010);
+                text-align: center;
+                font-family: Graphik;
+                font-size: 1.25vw;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            .mintBtn:disabled {
+                background: #DEDEDE;
+            }
+
+            .times {
+                width: 11.88vw;
+                height: 2.92vw;
+                color: var(--Grey, #DEDEDE);
+                font-family: Graphik;
+                font-size: 0.83vw;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+            }
+
+            .toMarketBtn {
+                width: 16.67vw;
+                height: 2.92vw;
+                border-radius: .52vw;
+                border: 1px solid var(--Grey, #DEDEDE);
+                color: var(--Grey, #DEDEDE);
+                text-align: center;
+                font-family: Graphik;
+                font-size: 1.25vw;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+
+    .timeline {
+        width: 100%;
+        margin-top: 3.19vw;
+        padding-top: 2.36vw;
+        border-top: 1px solid var(--Gray, #DEDEDE);
+
+        .timelineTitle {
+            color: var(--Grey, #DEDEDE);
+            font-family: Graphik;
+            font-size: 0.83vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 1.6vw;
+        }
+
+        .stageType {
+            margin-bottom: 1.6vw;
+
+            .dot {
+                width: .68vw;
+                height: .68vw;
+                flex-shrink: 0;
+                border-radius: 50%;
+                background: #D9D9D9;
+                margin-right: .94vw;
+            }
+
+            .dotActive {
+                background: var(--Green, #6EF000);
+            }
+
+
+
+            .stageTitle,
+            .date {
+                color: var(--Grey, #DEDEDE);
+                font-family: Graphik;
+                font-size: 0.83vw;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+
+                span {
+                    font-weight: 600;
+                }
+            }
+
+            .date {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.bgImg {
+    width: 57.86vw;
+    height: 61.77vw;
+    flex-shrink: 0;
+    position: absolute;
+    right: 0;
+    top: 9.51vw;
+    z-index: -1;
+}
+
+.bgImg_icon {
+    width: 57.86vw;
+    height: 61.77vw;
+    flex-shrink: 0;
+    position: absolute;
+    right: 9vw;
+    top: 9.51vw;
+}
+
+.faqSection {
+    padding-top: 4.32vw;
+
+    .faqTitle {
+        color: var(--Grey, #DEDEDE);
+        text-align: center;
+        font-family: Graphik;
+        font-size: 3.33vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        margin-bottom: 0.52vw;
+    }
+
+    .faqQuestionTit {
+        width: 100%;
+        height: 3.49vw;
+        padding: 0 2.44vw;
+
+        color: var(--Green, #6EF000);
+        font-family: Graphik;
+        font-size: 1.67vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 3.49vw;
+        border-radius: 0.52vw;
+        border: 1px solid var(--Green, #6EF000);
+
+        margin-top: 1.77vw;
+        margin-bottom: 1.20vw;
+    }
+
+    .faqContent {
+        padding: 0 0 2.14vw 2.44vw;
+        color: #FFF;
+        font-family: Graphik;
+        font-size: 1.04vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.56vw;
+
+        span {
+            color: var(--Green, #6EF000);
+            font-weight: 600;
+        }
+    }
+}
+
+.footImg {
+    width: 100%;
+    height: 14.54vw;
+    margin-top: 2.14vw;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 3.74vw;
+    }
+
+    .topContent {
+        padding-top: 6.47vw;
+
+        p {
+            font-size: 3.22vw;
+            line-height: normal;
+            width: 100%;
+        }
+
+        p:first-child {
+            font-size: 6.88vw;
+        }
+    }
+
+    .mintSection {
+        width: 100%;
+        margin-top: 4.22vw;
+        padding: 4.22vw 3.74vw 5.47vw;
+        margin-left: 0;
+        border-radius: 8px;
+
+        .mintTitle {
+            font-size: 4.74vw;
+        }
+
+        .progressContainer {
+            width: 100%;
+            margin-top: 2.22vw;
+
+            .mintCount p {
+                font-size: 3.11vw;
+            }
+
+            .progressBar {
+                height: 2.44vw;
+            }
+        }
+
+        .mintPrice {
+            min-width: 100%;
+            margin-top: 6.22vw;
+            padding-top: 1.74vw;
+
+            .price {
+                font-size: 3.11vw;
+                margin-bottom: 1.74vw;
+            }
+
+            .handles {
+                .checkBtn {
+                    width: 45%;
+                    height: 6.25vw;
+                    border-radius: .65vw;
+                    margin-right: .44vw;
+                    font-size: 3.11vw;
+                    border-radius: 8px;
+                }
+
+                .mintBtn {
+                    width: 45%;
+                    height: 6.25vw;
+                    border-radius: .44vw;
+                    border-radius: 8px;
+                    font-size: 3.11vw;
+                }
+
+                .times {
+                    width: 45%;
+                    height: 6.25vw;
+                    font-size: 2.51vw;
+                }
+
+                .toMarketBtn {
+                    width: 45%;
+                    height: 6.78vw;
+                    border-radius: .44vw;
+                    border-radius: 8px;
+                    font-size: 3.11vw;
+                }
+            }
+        }
+
+        .timeline {
+            margin-top: 6.22vw;
+            padding-top: 2.74vw;
+
+            .timelineTitle {
+                font-size: 3.11vw;
+                margin-bottom: 2.22vw;
+            }
+
+            .stageType {
+                margin-bottom: 2.22vw;
+
+                .dot {
+                    width: 2.08vw;
+                    height: 2.08vw;
+                }
+
+                .stageTitle,
+                .date {
+                    font-size: 3.11vw;
+
+                    span {
+                        font-weight: 600;
+                    }
+                }
+
+                .date {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .bgImg {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 2vw;
+        right: 0;
+        margin-top: 4.22vw;
+    }
+
+    .bgImg_icon {
+        height: auto;
+        width: 100%;
+        right: 0;
+        z-index: -1;
+    }
+
+    .faqSection {
+        padding-top: 4.44vw;
+
+        .faqTitle {
+            font-size: 5.47vw;
+            margin-bottom: .44vw;
+        }
+
+        .faqQuestionTit {
+            height: 8.47vw;
+            font-size: 3.74vw;
+            line-height: 8.47vw;
+            margin-top: 2.74vw;
+            margin-bottom: 1.74vw;
+            border-radius: 8px;
+        }
+
+        .faqContent {
+            padding: 0 2.74vw 2.74vw;
+            font-size: 3.51vw;
+            line-height: normal;
+
+            span {
+                margin-top: 1.74vw;
+            }
+        }
+    }
+
+    .footImg {
+        height: 20.29vw;
+        margin-top: 1.74vw;
+    }
+
+}

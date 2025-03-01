@@ -1,0 +1,28 @@
+// 顶部 Header 样式
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.18vw 2.60vw 0;
+  background-color: #101010;
+
+  .logo {
+    img {
+      height: 2.66vw;
+      // width: 8.39vw;
+    }
+  }
+}
+
+// 响应式导航栏
+@media (max-width: 768px) {
+  .header {
+    padding: 4.86vw 2.74vw 0;
+
+    .logo {
+      img {
+        height: 6.86vw;
+      }
+    }
+  }
+}
